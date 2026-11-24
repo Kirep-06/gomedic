@@ -1,0 +1,27 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/gomedic
+/bin/
+/dist/
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+coverage.txt
+
+# Profile fixtures generated locally
+*.pb.gz
+*.prof
+*.pprof
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
